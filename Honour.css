@@ -1,0 +1,66 @@
+body {
+    background-color: whitesmoke;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+   padding: 18px;
+}
+
+.logo h3 {
+   color: #cf0018; 
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+a {
+    text-decoration:none ;
+}
+
+li {
+    padding: 8px;
+}
+li a {
+    font-size: small;
+    color:gray
+}
+
+li a :hover{
+    border-bottom: 1px solid #cf0018;
+    
+}
+.contact-icons {
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero-img {
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+}
+
+#name {
+    color: #cf0018;
+}
+
+.tech-stack{
+    text-align: center;
+}
+
+.projects{
+    text-align: center;
+}
