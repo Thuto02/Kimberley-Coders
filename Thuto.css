@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(16, 153, 233);
+}
+
+.h1_box_model {
+width: 600px;
+height: 400px;
+background-color: rgb(245, 179, 179);
+padding-top: 15px;
+padding-left: 150px;
+margin-top: 25px;
+
+}
+.boxes{
+    display: flex;
+}
+.small-box{
+    height: 100 px;
+    width: 100px;
+    background-color: red;
+    margin: 10px;
+    padding: 25px;
+}
